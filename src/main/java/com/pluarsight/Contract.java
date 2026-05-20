@@ -8,7 +8,7 @@ public abstract class Contract {
     private double totalPrice;
     private double monthlyPayment;
 
-    public Contract(String date, double monthlyPayment, Vehicle  vehicalSold, double totalPrice, String email, String name) {
+    public Contract(String date, Vehicle  vehicalSold, String email, String name) {
         this.date = date;
         this.monthlyPayment = monthlyPayment;
         this.vehicalSold = vehicalSold;
